@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">ListViewDemo</string>
+    <string name="title_activity_wonders">New7Wonders</string>
+
+    <string-array name="wonderslist">
+        <item>Machu Picchu, Peru </item>
+        <item>Christ the Redeemer, Brazil</item>
+        <item>Colosseum, Italy</item>
+        <item>Great Wall of China, China </item>
+        <item>Taj Mahal, India</item>
+        <item>Chichen Itza, Mexico</item>
+        <item>Petra, Jordan</item>
+        <item>PP Underground River, Philippines</item>
+        <item>Table Mountain, South Africa</item>
+        <item>Amazon, South America</item>
+        <item>Iguazu Falls, Argentian and Brzail</item>
+        <item>Komodo, Indonesia</item>
+        <item>Jeju Island, South Korea</item>
+        <item>Ha Long Bay, Vietnam</item>
+        <item>La Paz, Bolivia</item>
+        <item>Havana, Cuba</item>
+        <item>Vigan, Philippines</item>
+        <item>Beirut, Lebanon</item>
+        <item>Doha, Qatar</item>
+        <item>Durban, South Africa</item>
+        <item>Kuala Lumpur, Malaysia</item>
+    </string-array>
+    <string-array name="wondersURLlist">
+        <item>https://world.new7wonders.com/wonders/machu-picchu-1460-1470-peru/</item>
+        <item>https://world.new7wonders.com/wonders/christ-redeemer-1931-rio-de-janeiro-brazil/</item>
+        <item>https://world.new7wonders.com/wonders/roman-colosseum-70-82-a-d-rome-italy/</item>
+        <item>https://world.new7wonders.com/wonders/great-wall-of-china-220-b-c-and-1368-1644-a-d-china/</item>
+        <item>https://world.new7wonders.com/wonders/taj-mahal-1630-a-d-agra-india/</item>
+        <item>https://world.new7wonders.com/wonders/pyramid-at-chichen-itza-before-800-a-d-yucatan-peninsula-mexico/</item>
+        <item>https://world.new7wonders.com/wonders/petra-9-b-c-40-a-d-jordan/</item>
+        <item>https://nature.new7wonders.com/wonders/jeju-island-korea-south/</item>
+        <item>https://nature.new7wonders.com/wonders/table-mountain-south-africa/</item>
+        <item>https://nature.new7wonders.com/wonders/iguazu-falls-argentina-and-brazil/</item>
+        <item>https://nature.new7wonders.com/wonders/ha-long-bay-vietnam/</item>
+        <item>https://nature.new7wonders.com/wonders/puerto-princessa-underground-river-philippines/</item>
+        <item>https://nature.new7wonders.com/wonders/amazon-south-america/</item>
+        <item>https://nature.new7wonders.com/wonders/komodo-indonesia/</item>
+        <item>https://cities.new7wonders.com/wonders/havana-cuba/</item>
+        <item>https://cities.new7wonders.com/wonders/la-paz-bolivia/</item>
+        <item>https://cities.new7wonders.com/wonders/beirut-lebanon/</item>
+        <item>https://cities.new7wonders.com/wonders/doha-qatar/</item>
+        <item>https://cities.new7wonders.com/wonders/vigan-philippines/</item>
+        <item>https://cities.new7wonders.com/wonders/durban-south-africa/</item>
+        <item>https://cities.new7wonders.com/wonders/kuala-lumpur/</item>
+    </string-array>
+</resources>

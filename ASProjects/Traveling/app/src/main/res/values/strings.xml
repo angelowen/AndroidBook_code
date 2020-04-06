@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Traveling Around the World</string>
+    <string name="action_settings">Settings</string>
+    <string name="paris">Paris</string>
+    <string name="zurich">Zurich</string>
+    <string name="asiacities">Asia Cities</string>
+    <string name="beijing">Beijing </string>
+    <string name="hk">Hong Kong</string>
+</resources>

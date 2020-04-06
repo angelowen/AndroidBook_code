@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_paris"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParisActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewParis"
+        android:src="@drawable/paris"
+        android:scaleType="centerCrop" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/likeFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/like" />
+
+    <TextView
+        android:text="Eiffel Tower, Paris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/parisDesp"
+        android:layout_alignParentEnd="true"
+        android:textSize="24sp"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parisOptText"
+        android:textSize="24sp"
+        android:layout_above="@+id/parisDesp"
+        android:layout_alignParentStart="true"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/likeText"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/likeFab"
+        android:layout_toEndOf="@+id/likeFab"
+        android:layout_alignTop="@+id/likeFab" />
+
+</RelativeLayout>

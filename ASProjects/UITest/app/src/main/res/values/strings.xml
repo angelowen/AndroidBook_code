@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI Test</string>
+    <string name="hintText">請輸入一個字串</string>
+    <string name="sendBtnText">送出</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:text="Traveling v.0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Author: Jun Wu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textView2"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Email Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/emailMe"
+        android:onClick="actionPerformed" />
+
+    <Button
+        android:text="Visit My Homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/visitHomepage"
+        android:layout_below="@+id/emailMe"
+        android:layout_centerHorizontal="true"
+        android:onClick="actionPerformed" />
+
+    <Button
+        android:text="Call Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:id="@+id/callMe"
+        android:layout_below="@+id/visitHomepage"
+        android:layout_alignEnd="@+id/emailMe"
+        android:onClick="actionPerformed" />
+</RelativeLayout>
